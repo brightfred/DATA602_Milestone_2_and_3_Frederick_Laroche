@@ -1,0 +1,615 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\dat602_game_frederick_laroche\\dao\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|solutionrelative:dat602_game_frederick_laroche\\dao\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|c:\\users\\fred\\source\\repos\\dat602_game_frederick_laroche\\dat602_game_frederick_laroche\\forms\\singleplayerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|solutionrelative:dat602_game_frederick_laroche\\forms\\singleplayerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|c:\\users\\fred\\source\\repos\\dat602_game_frederick_laroche\\dat602_game_frederick_laroche\\forms\\registrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|solutionrelative:dat602_game_frederick_laroche\\forms\\registrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|c:\\users\\fred\\source\\repos\\dat602_game_frederick_laroche\\dat602_game_frederick_laroche\\forms\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|solutionrelative:dat602_game_frederick_laroche\\forms\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\dat602_game_frederick_laroche\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|solutionrelative:dat602_game_frederick_laroche\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\dat602_game_frederick_laroche\\forms\\lobbyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|solutionrelative:dat602_game_frederick_laroche\\forms\\lobbyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|c:\\users\\fred\\source\\repos\\dat602_game_frederick_laroche\\dat602_game_frederick_laroche\\forms\\leaderboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|solutionrelative:dat602_game_frederick_laroche\\forms\\leaderboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\dat602_game_frederick_laroche\\dao\\gamedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|solutionrelative:dat602_game_frederick_laroche\\dao\\gamedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\dat602_game_frederick_laroche\\dao\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|solutionrelative:dat602_game_frederick_laroche\\dao\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|c:\\users\\fred\\source\\repos\\dat602_game_frederick_laroche\\dat602_game_frederick_laroche\\forms\\basegameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|solutionrelative:dat602_game_frederick_laroche\\forms\\basegameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|c:\\users\\fred\\source\\repos\\dat602_game_frederick_laroche\\dat602_game_frederick_laroche\\forms\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|solutionrelative:dat602_game_frederick_laroche\\forms\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|c:\\users\\fred\\source\\repos\\dat602_game_frederick_laroche\\dat602_game_frederick_laroche\\forms\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|solutionrelative:dat602_game_frederick_laroche\\forms\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\dat602_game_frederick_laroche\\dao\\admindao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|solutionrelative:dat602_game_frederick_laroche\\dao\\admindao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|c:\\users\\fred\\source\\repos\\dat602_game_frederick_laroche\\dat602_game_frederick_laroche\\forms\\singleplayerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|solutionrelative:dat602_game_frederick_laroche\\forms\\singleplayerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|c:\\users\\fred\\source\\repos\\dat602_game_frederick_laroche\\dat602_game_frederick_laroche\\forms\\basegameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|solutionrelative:dat602_game_frederick_laroche\\forms\\basegameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|c:\\users\\fred\\source\\repos\\dat602_game_frederick_laroche\\dat602_game_frederick_laroche\\forms\\basegameform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|solutionrelative:dat602_game_frederick_laroche\\forms\\basegameform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Fred\\AppData\\Local\\Temp\\.vsdbgsrc\\951c323f7c36f8a9fcb9b537a76ccf91b78bbba9abf74688b3f8c51343712aeb\\GameDao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\dat602_game_frederick_laroche\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|solutionrelative:dat602_game_frederick_laroche\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|c:\\users\\fred\\source\\repos\\dat602_game_frederick_laroche\\dat602_game_frederick_laroche\\forms\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|solutionrelative:dat602_game_frederick_laroche\\forms\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\dat602_game_frederick_laroche\\forms\\registrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|solutionrelative:dat602_game_frederick_laroche\\forms\\registrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|c:\\users\\fred\\source\\repos\\dat602_game_frederick_laroche\\dat602_game_frederick_laroche\\forms\\adminform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|solutionrelative:dat602_game_frederick_laroche\\forms\\adminform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|c:\\users\\fred\\source\\repos\\dat602_game_frederick_laroche\\dat602_game_frederick_laroche\\forms\\profile.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|solutionrelative:dat602_game_frederick_laroche\\forms\\profile.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Fred\\AppData\\Local\\Temp\\.vsdbgsrc\\ccccf58668d2c12168177ddd49e4603593812f9060e7574f5c13e0d254ede920\\MySqlParameterCollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|c:\\users\\fred\\source\\repos\\dat602_game_frederick_laroche\\dat602_game_frederick_laroche\\forms\\leaderboardform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|solutionrelative:dat602_game_frederick_laroche\\forms\\leaderboardform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|c:\\users\\fred\\source\\repos\\dat602_game_frederick_laroche\\dat602_game_frederick_laroche\\forms\\leaderboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|solutionrelative:dat602_game_frederick_laroche\\forms\\leaderboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\dat602_game_frederick_laroche\\forms\\lobbyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|solutionrelative:dat602_game_frederick_laroche\\forms\\lobbyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|c:\\users\\fred\\source\\repos\\dat602_game_frederick_laroche\\dat602_game_frederick_laroche\\forms\\registrationform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|solutionrelative:dat602_game_frederick_laroche\\forms\\registrationform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|c:\\users\\fred\\source\\repos\\dat602_game_frederick_laroche\\dat602_game_frederick_laroche\\forms\\singleplayerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|solutionrelative:dat602_game_frederick_laroche\\forms\\singleplayerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\dat602_game_frederick_laroche\\forms\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|solutionrelative:dat602_game_frederick_laroche\\forms\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\dat602_game_frederick_laroche\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|solutionrelative:dat602_game_frederick_laroche\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\dat602_game_frederick_laroche\\forms\\lobbyform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58B57556-564A-4245-8C4D-43EEE9BE68EA}|DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj|solutionrelative:dat602_game_frederick_laroche\\forms\\lobbyform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Fred\\AppData\\Local\\Temp\\.vsdbgsrc\\1d557631f35fffefa33571c20efcd16538d28e60eedea4b64c31f5bf5278e07f\\SinglePlayerForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|DAT602_Game_Frederick_Laroche||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Fred\\AppData\\Local\\Temp\\e1f7f317-f90c-4c71-8f51-5c39abe69f0b_DAT602 2023 Tile layout demo.zip.f0b\\DAT602 2023 Tile layout demo\\sapo\\PlayForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Fred\\AppData\\Local\\Temp\\e748a71b-fd45-4107-a134-73cd4102f717_DAT602 2023 Tile layout demo.zip.717\\DAT602 2023 Tile layout demo\\sapo\\PlayForm.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 181,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 38,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GameDao.cs",
+              "DocumentMoniker": "C:\\Users\\Fred\\AppData\\Local\\Temp\\.vsdbgsrc\\951c323f7c36f8a9fcb9b537a76ccf91b78bbba9abf74688b3f8c51343712aeb\\GameDao.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\951c323f7c36f8a9fcb9b537a76ccf91b78bbba9abf74688b3f8c51343712aeb\\GameDao.cs",
+              "ToolTip": "C:\\Users\\Fred\\AppData\\Local\\Temp\\.vsdbgsrc\\951c323f7c36f8a9fcb9b537a76ccf91b78bbba9abf74688b3f8c51343712aeb\\GameDao.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\951c323f7c36f8a9fcb9b537a76ccf91b78bbba9abf74688b3f8c51343712aeb\\GameDao.cs [Read Only]",
+              "ViewState": "AQIAAKIAAAAAAAAAAAAIwLcAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T07:59:46.984Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MySqlParameterCollection.cs",
+              "DocumentMoniker": "C:\\Users\\Fred\\AppData\\Local\\Temp\\.vsdbgsrc\\ccccf58668d2c12168177ddd49e4603593812f9060e7574f5c13e0d254ede920\\MySqlParameterCollection.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\ccccf58668d2c12168177ddd49e4603593812f9060e7574f5c13e0d254ede920\\MySqlParameterCollection.cs",
+              "ToolTip": "C:\\Users\\Fred\\AppData\\Local\\Temp\\.vsdbgsrc\\ccccf58668d2c12168177ddd49e4603593812f9060e7574f5c13e0d254ede920\\MySqlParameterCollection.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\ccccf58668d2c12168177ddd49e4603593812f9060e7574f5c13e0d254ede920\\MySqlParameterCollection.cs [Read Only]",
+              "ViewState": "AQIAABMBAAAAAAAAAAAjwCEBAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T01:17:07.364Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "profile.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\profile.Designer.cs",
+              "RelativeDocumentMoniker": "DAT602_Game_Frederick_Laroche\\Forms\\profile.Designer.cs",
+              "ToolTip": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\profile.Designer.cs",
+              "RelativeToolTip": "DAT602_Game_Frederick_Laroche\\Forms\\profile.Designer.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAApwFcAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T22:31:29.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "profile.cs",
+              "DocumentMoniker": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\profile.cs",
+              "RelativeDocumentMoniker": "DAT602_Game_Frederick_Laroche\\Forms\\profile.cs",
+              "ToolTip": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\profile.cs",
+              "RelativeToolTip": "DAT602_Game_Frederick_Laroche\\Forms\\profile.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAcwDUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T22:14:58.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "profile.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\profile.cs",
+              "RelativeDocumentMoniker": "DAT602_Game_Frederick_Laroche\\Forms\\profile.cs",
+              "ToolTip": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\profile.cs [Design]",
+              "RelativeToolTip": "DAT602_Game_Frederick_Laroche\\Forms\\profile.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T22:10:51.305Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LeaderBoardForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\LeaderBoardForm.Designer.cs",
+              "RelativeDocumentMoniker": "DAT602_Game_Frederick_Laroche\\Forms\\LeaderBoardForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\LeaderBoardForm.Designer.cs",
+              "RelativeToolTip": "DAT602_Game_Frederick_Laroche\\Forms\\LeaderBoardForm.Designer.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBoAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T23:58:12.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LeaderBoardForm.cs",
+              "DocumentMoniker": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\LeaderBoardForm.cs",
+              "RelativeDocumentMoniker": "DAT602_Game_Frederick_Laroche\\Forms\\LeaderBoardForm.cs",
+              "ToolTip": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\LeaderBoardForm.cs",
+              "RelativeToolTip": "DAT602_Game_Frederick_Laroche\\Forms\\LeaderBoardForm.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACAAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T22:00:07.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LeaderBoardForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\LeaderBoardForm.cs",
+              "RelativeDocumentMoniker": "DAT602_Game_Frederick_Laroche\\Forms\\LeaderBoardForm.cs",
+              "ToolTip": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\LeaderBoardForm.cs [Design]",
+              "RelativeToolTip": "DAT602_Game_Frederick_Laroche\\Forms\\LeaderBoardForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T21:57:13.417Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "SinglePlayerForm.cs",
+              "DocumentMoniker": "C:\\Users\\Fred\\AppData\\Local\\Temp\\.vsdbgsrc\\1d557631f35fffefa33571c20efcd16538d28e60eedea4b64c31f5bf5278e07f\\SinglePlayerForm.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\1d557631f35fffefa33571c20efcd16538d28e60eedea4b64c31f5bf5278e07f\\SinglePlayerForm.cs",
+              "ToolTip": "C:\\Users\\Fred\\AppData\\Local\\Temp\\.vsdbgsrc\\1d557631f35fffefa33571c20efcd16538d28e60eedea4b64c31f5bf5278e07f\\SinglePlayerForm.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\1d557631f35fffefa33571c20efcd16538d28e60eedea4b64c31f5bf5278e07f\\SinglePlayerForm.cs [Read Only]",
+              "ViewState": "AQIAAMAAAAAAAAAAAAApwFIBAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T08:55:11.761Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SinglePlayerForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\SinglePlayerForm.Designer.cs",
+              "RelativeDocumentMoniker": "DAT602_Game_Frederick_Laroche\\Forms\\SinglePlayerForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\SinglePlayerForm.Designer.cs",
+              "RelativeToolTip": "DAT602_Game_Frederick_Laroche\\Forms\\SinglePlayerForm.Designer.cs",
+              "ViewState": "AQIAALUAAAAAAAAAAAAgwM0AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T03:06:15.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SinglePlayerForm.cs",
+              "DocumentMoniker": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\SinglePlayerForm.cs",
+              "RelativeDocumentMoniker": "DAT602_Game_Frederick_Laroche\\Forms\\SinglePlayerForm.cs",
+              "ToolTip": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\SinglePlayerForm.cs",
+              "RelativeToolTip": "DAT602_Game_Frederick_Laroche\\Forms\\SinglePlayerForm.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAgwA0BAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T03:05:12.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SinglePlayerForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\SinglePlayerForm.cs",
+              "RelativeDocumentMoniker": "DAT602_Game_Frederick_Laroche\\Forms\\SinglePlayerForm.cs",
+              "ToolTip": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\SinglePlayerForm.cs [Design]",
+              "RelativeToolTip": "DAT602_Game_Frederick_Laroche\\Forms\\SinglePlayerForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T02:52:50.572Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BaseGameForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\BaseGameForm.Designer.cs",
+              "RelativeDocumentMoniker": "DAT602_Game_Frederick_Laroche\\Forms\\BaseGameForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\BaseGameForm.Designer.cs",
+              "RelativeToolTip": "DAT602_Game_Frederick_Laroche\\Forms\\BaseGameForm.Designer.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAqwEcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T02:42:06.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "RegistrationForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\RegistrationForm.Designer.cs",
+              "RelativeDocumentMoniker": "DAT602_Game_Frederick_Laroche\\Forms\\RegistrationForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\RegistrationForm.Designer.cs",
+              "RelativeToolTip": "DAT602_Game_Frederick_Laroche\\Forms\\RegistrationForm.Designer.cs",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAawGgAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T02:39:20.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AdminForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\AdminForm.Designer.cs",
+              "RelativeDocumentMoniker": "DAT602_Game_Frederick_Laroche\\Forms\\AdminForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\AdminForm.Designer.cs",
+              "RelativeToolTip": "DAT602_Game_Frederick_Laroche\\Forms\\AdminForm.Designer.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAAwEgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T02:39:07.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BaseGameForm.cs",
+              "DocumentMoniker": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\BaseGameForm.cs",
+              "RelativeDocumentMoniker": "DAT602_Game_Frederick_Laroche\\Forms\\BaseGameForm.cs",
+              "ToolTip": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\BaseGameForm.cs",
+              "RelativeToolTip": "DAT602_Game_Frederick_Laroche\\Forms\\BaseGameForm.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAIwDwAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T02:34:05.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BaseGameForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\BaseGameForm.cs",
+              "RelativeDocumentMoniker": "DAT602_Game_Frederick_Laroche\\Forms\\BaseGameForm.cs",
+              "ToolTip": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\BaseGameForm.cs [Design]",
+              "RelativeToolTip": "DAT602_Game_Frederick_Laroche\\Forms\\BaseGameForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T02:32:38.269Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AdminForm.cs",
+              "DocumentMoniker": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\AdminForm.cs",
+              "RelativeDocumentMoniker": "DAT602_Game_Frederick_Laroche\\Forms\\AdminForm.cs",
+              "ToolTip": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\AdminForm.cs",
+              "RelativeToolTip": "DAT602_Game_Frederick_Laroche\\Forms\\AdminForm.cs",
+              "ViewState": "AQIAAKwAAAAAAAAAAAAAAIEAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T23:41:59.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AdminForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\AdminForm.cs",
+              "RelativeDocumentMoniker": "DAT602_Game_Frederick_Laroche\\Forms\\AdminForm.cs",
+              "ToolTip": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\AdminForm.cs [Design]",
+              "RelativeToolTip": "DAT602_Game_Frederick_Laroche\\Forms\\AdminForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T23:39:30.269Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "DAT602_Game_Frederick_Laroche",
+              "DocumentMoniker": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj",
+              "RelativeDocumentMoniker": "DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj",
+              "ToolTip": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj",
+              "RelativeToolTip": "DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-12T22:32:56.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "LobbyForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\LobbyForm.Designer.cs",
+              "RelativeDocumentMoniker": "DAT602_Game_Frederick_Laroche\\Forms\\LobbyForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\LobbyForm.Designer.cs",
+              "RelativeToolTip": "DAT602_Game_Frederick_Laroche\\Forms\\LobbyForm.Designer.cs",
+              "ViewState": "AQIAAIMAAAAAAAAAAAAawJMAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T00:11:47.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "PlayForm.cs",
+              "DocumentMoniker": "C:\\Users\\Fred\\AppData\\Local\\Temp\\e1f7f317-f90c-4c71-8f51-5c39abe69f0b_DAT602 2023 Tile layout demo.zip.f0b\\DAT602 2023 Tile layout demo\\sapo\\PlayForm.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\e1f7f317-f90c-4c71-8f51-5c39abe69f0b_DAT602 2023 Tile layout demo.zip.f0b\\DAT602 2023 Tile layout demo\\sapo\\PlayForm.cs",
+              "ToolTip": "C:\\Users\\Fred\\AppData\\Local\\Temp\\e1f7f317-f90c-4c71-8f51-5c39abe69f0b_DAT602 2023 Tile layout demo.zip.f0b\\DAT602 2023 Tile layout demo\\sapo\\PlayForm.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\e1f7f317-f90c-4c71-8f51-5c39abe69f0b_DAT602 2023 Tile layout demo.zip.f0b\\DAT602 2023 Tile layout demo\\sapo\\PlayForm.cs [Read Only]",
+              "ViewState": "AQIAACMAAAAAAAAAAAAAAEAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T23:54:49.529Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "PlayForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Fred\\AppData\\Local\\Temp\\e748a71b-fd45-4107-a134-73cd4102f717_DAT602 2023 Tile layout demo.zip.717\\DAT602 2023 Tile layout demo\\sapo\\PlayForm.Designer.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\e748a71b-fd45-4107-a134-73cd4102f717_DAT602 2023 Tile layout demo.zip.717\\DAT602 2023 Tile layout demo\\sapo\\PlayForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Fred\\AppData\\Local\\Temp\\e748a71b-fd45-4107-a134-73cd4102f717_DAT602 2023 Tile layout demo.zip.717\\DAT602 2023 Tile layout demo\\sapo\\PlayForm.Designer.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\e748a71b-fd45-4107-a134-73cd4102f717_DAT602 2023 Tile layout demo.zip.717\\DAT602 2023 Tile layout demo\\sapo\\PlayForm.Designer.cs [Read Only]",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T23:54:27.504Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "LobbyForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\LobbyForm.cs",
+              "RelativeDocumentMoniker": "DAT602_Game_Frederick_Laroche\\Forms\\LobbyForm.cs",
+              "ToolTip": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\LobbyForm.cs [Design]",
+              "RelativeToolTip": "DAT602_Game_Frederick_Laroche\\Forms\\LobbyForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T21:16:37.799Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LobbyForm.cs",
+              "DocumentMoniker": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\LobbyForm.cs",
+              "RelativeDocumentMoniker": "DAT602_Game_Frederick_Laroche\\Forms\\LobbyForm.cs",
+              "ToolTip": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\LobbyForm.cs",
+              "RelativeToolTip": "DAT602_Game_Frederick_Laroche\\Forms\\LobbyForm.cs",
+              "ViewState": "AQIAAKkAAAAAAAAAAAAzwLgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T21:18:18.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Program.cs",
+              "RelativeDocumentMoniker": "DAT602_Game_Frederick_Laroche\\Program.cs",
+              "ToolTip": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Program.cs",
+              "RelativeToolTip": "DAT602_Game_Frederick_Laroche\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T09:22:47.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "LoginForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\LoginForm.Designer.cs",
+              "RelativeDocumentMoniker": "DAT602_Game_Frederick_Laroche\\Forms\\LoginForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\LoginForm.Designer.cs",
+              "RelativeToolTip": "DAT602_Game_Frederick_Laroche\\Forms\\LoginForm.Designer.cs",
+              "ViewState": "AQIAAHoAAAAAAAAAAAAawIcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T09:17:24.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegistrationForm.cs",
+              "DocumentMoniker": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\RegistrationForm.cs",
+              "RelativeDocumentMoniker": "DAT602_Game_Frederick_Laroche\\Forms\\RegistrationForm.cs",
+              "ToolTip": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\RegistrationForm.cs",
+              "RelativeToolTip": "DAT602_Game_Frederick_Laroche\\Forms\\RegistrationForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T09:05:13.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RegistrationForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\RegistrationForm.cs",
+              "RelativeDocumentMoniker": "DAT602_Game_Frederick_Laroche\\Forms\\RegistrationForm.cs",
+              "ToolTip": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\RegistrationForm.cs [Design]",
+              "RelativeToolTip": "DAT602_Game_Frederick_Laroche\\Forms\\RegistrationForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T09:02:29.1Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\LoginForm.cs",
+              "RelativeDocumentMoniker": "DAT602_Game_Frederick_Laroche\\Forms\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\LoginForm.cs",
+              "RelativeToolTip": "DAT602_Game_Frederick_Laroche\\Forms\\LoginForm.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBMAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T08:38:13.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\LoginForm.cs",
+              "RelativeDocumentMoniker": "DAT602_Game_Frederick_Laroche\\Forms\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\Forms\\LoginForm.cs [Design]",
+              "RelativeToolTip": "DAT602_Game_Frederick_Laroche\\Forms\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T08:37:40.391Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\DAO\\DataAccess.cs",
+              "RelativeDocumentMoniker": "DAT602_Game_Frederick_Laroche\\DAO\\DataAccess.cs",
+              "ToolTip": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\DAO\\DataAccess.cs",
+              "RelativeToolTip": "DAT602_Game_Frederick_Laroche\\DAO\\DataAccess.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T07:14:26.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AdminDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\DAO\\AdminDAO.cs",
+              "RelativeDocumentMoniker": "DAT602_Game_Frederick_Laroche\\DAO\\AdminDAO.cs",
+              "ToolTip": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\DAO\\AdminDAO.cs",
+              "RelativeToolTip": "DAT602_Game_Frederick_Laroche\\DAO\\AdminDAO.cs",
+              "ViewState": "AQIAAL4AAAAAAAAAAAAcwNIAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T07:30:25.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GameDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\DAO\\GameDAO.cs",
+              "RelativeDocumentMoniker": "DAT602_Game_Frederick_Laroche\\DAO\\GameDAO.cs",
+              "ToolTip": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\DAO\\GameDAO.cs",
+              "RelativeToolTip": "DAT602_Game_Frederick_Laroche\\DAO\\GameDAO.cs",
+              "ViewState": "AQIAACMBAAAAAAAAAAAIwNMAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T07:30:06.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\DAO\\UserDAO.cs",
+              "RelativeDocumentMoniker": "DAT602_Game_Frederick_Laroche\\DAO\\UserDAO.cs",
+              "ToolTip": "C:\\Users\\Fred\\source\\repos\\DAT602_Game_Frederick_Laroche\\DAT602_Game_Frederick_Laroche\\DAO\\UserDAO.cs",
+              "RelativeToolTip": "DAT602_Game_Frederick_Laroche\\DAO\\UserDAO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD4AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T07:21:57.314Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
