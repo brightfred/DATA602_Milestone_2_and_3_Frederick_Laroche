@@ -3,7 +3,7 @@ DROP DATABASE IF EXISTS dat_602_game;
 CREATE DATABASE dat_602_game;
 USE dat_602_game;
 
--- Stored Procedure to create all the tables
+-- Stored Procedure to Create All the Tables
 DELIMITER //
 CREATE PROCEDURE createAllTables()
 BEGIN
@@ -223,7 +223,7 @@ CREATE PROCEDURE Login(
 )
 COMMENT 'Check user login'
 BEGIN
-    DECLARE v_attempts INT DEFAULT 0; 
+    DECLARE v_attempts INT DEFAULT 0;  -- v_ for variable
     DECLARE v_player_id INT;
     DECLARE v_status VARCHAR(20);
 
@@ -261,7 +261,7 @@ BEGIN
         WHERE username = p_username;
 
         IF v_player_id IS NOT NULL THEN
-            -- Increment the login attempts
+            -- Increment login attempts
             SET v_attempts = v_attempts + 1;
             
             UPDATE player 
@@ -295,8 +295,8 @@ DELIMITER ;
 -- It first checks if the username already exist. If not, creates the account and logs their first
 -- connection time.
 --
--- It also uses last_insert_id() to get the new player ID instead of doing
--- an extra query.
+-- I also uses last_insert_id() to get the new player ID instead of doing
+-- an extra query like before.
 
 DELIMITER //
 DROP PROCEDURE IF EXISTS Register //
@@ -326,7 +326,7 @@ DELIMITER ;
 
 
 -- ========== Update player data procedure ==========
--- This procedure lets players change their username and password. It looks in the player table
+-- This procedure lets the players change their username and password. It looks in the player table
 -- to make sure no one else has the username they want before letting them change it.
 --
 -- what it does:
@@ -334,8 +334,8 @@ DELIMITER ;
 -- If no one has it, updates their info in the player table
 -- Tells them if it worked or if something went wrong
 --
--- I had to add a transaction here because milestone 3 needs it for when lots of 
--- players use the game at once. This stops things from breaking if two players
+-- I had to add a transaction here because milestone 3 needs it . Better for when lots of 
+-- players use the game at once. This will prevent things from breaking if two players
 -- try to use the same username at the same time, or if something goes wrong
 -- halfway through changing the player info.
 
@@ -381,11 +381,11 @@ DELIMITER ;
 -- to mark when the game finished.
 --
 -- what it does:
--- Puts the current time in the game's end_time column
--- Tells us if it worked
+-- Puts the current time in the game end_time column
+-- Tells me if it worked
 --
 -- I added a transaction here because milestone 3 needs it for when lots of 
--- players might try to stop games at once. This way we know for sure if the
+-- players might try to stop games at once. This way i know for sure if the
 -- game actually stopped or not.
 
 DELIMITER //
@@ -424,12 +424,12 @@ DELIMITER ;
 -- Finally removes them from the player table
 --
 -- I added a transaction here because milestone 3 needs it when removing player data.
--- This way either everything gets removed or nothing does - no half-deleted players!
+-- This way either everything gets removed or nothing does . no half-deleted players
 
 DELIMITER //
 DROP PROCEDURE IF EXISTS DeletePlayer //
 CREATE PROCEDURE DeletePlayer(
-    IN p_player_id INT    -- Which player we want to delete
+    IN p_player_id INT    -- Which player i want to delete
 )
 COMMENT 'Delete a player and related data'
 BEGIN
@@ -457,7 +457,7 @@ DELIMITER ;
 -- This procedure gets a list of all players from the player table.
 --
 -- what it does:
--- Shows us each player's ID, username and what they're doing (online, offline etc)
+-- Show each player ID, username and status (online, offline etc)
 
 DELIMITER //
 DROP PROCEDURE IF EXISTS GetAllPlayers //
@@ -469,14 +469,14 @@ END //
 DELIMITER ;
 
 -- ========== Update player status procedure ==========
--- This procedure changes what a player is doing in the game using the player table.
+-- This procedure changes a player status using the player table.
 --
 -- what it does:
--- Changes a player's status (like online, offline, banned)
--- Tells us if it worked
+-- Changes a player status (like online, offline, banned)
+-- Tells if it worked
 --
 -- I added a transaction here because milestone 3 needs it for when lots of
--- players are changing status at once. This way we know the status actually changed.
+-- players are changing status at once. This way i know the status actually changed or not, not half update.
 
 DELIMITER //
 DROP PROCEDURE IF EXISTS UpdatePlayerStatus //
@@ -511,7 +511,7 @@ DELIMITER ;
 DELIMITER //
 DROP PROCEDURE IF EXISTS CheckAdminStatus //
 CREATE PROCEDURE CheckAdminStatus(
-    IN p_player_id INT    -- Which player we're checking
+    IN p_player_id INT    -- Which player is checked
 )
 BEGIN
     SELECT is_admin 
@@ -539,12 +539,12 @@ DELIMITER ;
 
 -- ========== Send chat message procedure ==========
 -- This procedure handles sending chat messages using the chat_session and player_chat tables.
--- It checks if there's an active chat session first. If not, it makes a new one.
+-- It checks if there is an active chat session first. If not, it makes a new one.
 --
 -- What it does:
 -- Looks for an active chat session
 -- Makes a new one if there isn't one
--- Adds the player's message to player_chat
+-- Adds the player message to player_chat
 
 DELIMITER //
 DROP PROCEDURE IF EXISTS SendChatMessage //
@@ -576,13 +576,13 @@ END //
 DELIMITER ;
 
 
--- <========== Get Chat Messages Procedure ==========>
--- This procedure shows the last 50 messages from the chat using player_chat and player tables.
+-- ========== Get Chat Messages Procedure ==========
+-- This procedure shows the last 50 messages from the chat using the player_chat and player tables.
 --
 -- What it does:
--- Gets messages with the sender's username
+-- Gets messages with the sender username
 -- Shows newest messages first
--- Limits to last 50 messages
+-- I put a limits to last 50 messages
 
 DELIMITER //
 DROP PROCEDURE IF EXISTS GetChatMessages //
@@ -600,17 +600,17 @@ DELIMITER ;
 
 -- ========== Get player inventory procedure ==========
 -- This procedure shows what items a player has in their inventory for a specific game.
--- It uses the inventory and tile_type tables to give us item details.
+-- It uses the inventory and tile_type tables to give the item details.
 --
 -- What it does:
 -- Gets all the items this player has in this game
 -- Shows the item name, what it does, and how many they have
--- Only shows items from one specific game since players might be in different games
+-- Only shows items from one specific game
 
 DELIMITER //
 DROP PROCEDURE IF EXISTS GetPlayerInventory //
 CREATE PROCEDURE GetPlayerInventory(
-   IN p_player_id INT,    -- Which player's inventory to check
+   IN p_player_id INT,    -- Which player inventory to check
    IN p_game_id INT       -- Which game to look in
 )
 BEGIN
@@ -639,7 +639,7 @@ DELIMITER ;
 -- Adds a gnome (npc)
 -- Puts down items (heart, bigger blade)
 -- Sets the player starting spot(home)
--- Resets player's health to 3
+-- Resets player health to 3
 --
 -- I added a transaction here because milestone 3 needs it for when lots of players
 -- start games at once. This way the map either gets fully created or not at all.
@@ -662,7 +662,7 @@ BEGIN
    INSERT INTO map (game_id) VALUES (p_game_id);
    SET v_map_id = last_insert_id();
    
-   -- Create tiles using WHILE loops (all tiles start as NonMowed - type 1)
+   -- Create tiles using WHILE loops (all tiles start as NonMowed , type 1)
    WHILE v_current_row < v_max_row DO
        WHILE v_current_col < v_max_col DO
            -- Insert new tile and its location
@@ -676,7 +676,7 @@ BEGIN
        SET v_current_row = v_current_row + 1;
    END WHILE;
    
-   -- Place Pattern tiles (U shape)
+   -- Place Pattern tiles (U shape, hardcoded)
    UPDATE tile_location 
    INNER JOIN tile ON tile_location.tile_id = tile.tile_id
    SET tile_location.tile_type_id = 3
@@ -756,15 +756,16 @@ BEGIN
 END //
 DELIMITER ;
 
--- <========== Start Game Procedure ==========>
--- This procedure starts a new game and gets the player ready to play. It uses
+-- ========== Start Game Procedure ==========
+-- This procedure starts a new game and gets the player . It uses
 -- the game and player tables to set everything up. For single player games,
 -- it also calls GenerateSinglePlayerMap to create the game board.
+-- Should call GenerateMultiPlayerMap later on, need to implement that later if i have tme********************************************************************
 --
 -- What it does:
 -- Makes a new game entry with start time
 -- Links the player to this game
--- Resets player's health to 3
+-- Resets player health to 3
 -- Makes the game map if it's single player
 --
 -- I added a transaction here because milestone 3 needs it for when lots of 
@@ -821,7 +822,7 @@ DELIMITER ;
 -- Shows if a player is standing on each tile
 -- Orders everything by row and column so it's easy to display
 --
--- No transaction needed i think for this one .
+-- No transaction needed i think for this one as im just getting data, no changing anything.
 
 DELIMITER //
 DROP PROCEDURE IF EXISTS GetGameBoard //
@@ -854,15 +855,15 @@ DELIMITER ;
 --
 -- What it does:
 -- For single player games:
---   Checks player's health
+--   Checks player health
 --   Counts how many pattern tiles are left to mow
 --   Calculates how long the game has been running
 --   Updates game end time if it's over
 -- For multiplayer:
---   Just says game is in progress (not implemented yet, running out of time)
+--  (not implemented yet, running out of time)
 --
 -- I added a transaction here because milestone 3 needs it when ending games.
--- This way we don't get weird states where the game is half-ended.
+-- This way i don't get weird states where the game is half-ended.
 
 DELIMITER //
 DROP PROCEDURE IF EXISTS CheckGameStatus //
@@ -933,7 +934,7 @@ END //
 DELIMITER ;
 
 
--- <========== Move Player Procedure ==========>
+-- ========== Move player procedure ==========
 -- This procedure handles everything about moving a player on the game board. It uses
 -- multiple tables (player, tile, tile_location, score, inventory) to:
 --   Check if the move is allowed
@@ -960,7 +961,7 @@ DELIMITER //
 DROP PROCEDURE IF EXISTS MovePlayer //
 CREATE PROCEDURE MovePlayer(
     IN p_player_id INT,      -- Which player is moving
-    IN p_game_id INT,        -- Which game they're in
+    IN p_game_id INT,        -- Which game they are in
     IN p_new_row INT,        -- Where they want to move (row)
     IN p_new_col INT         -- Where they want to move (column)
 )
@@ -1065,13 +1066,13 @@ BEGIN
                 VALUES (p_player_id, p_game_id, current_timestamp(), 1);
             END IF;
             
-            -- Update tile type to reflect it has been interacted with
+            -- Update tile type to reflect it has been interacted with( It is all hardcoded with my tile type id)
             UPDATE tile_location
             SET tile_type_id = CASE 
                 WHEN tile_type_id = 1 THEN 2
                 WHEN tile_type_id = 3 THEN 4
                 WHEN tile_type_id = 7 THEN 2 -- Remove heart from tile
-                WHEN tile_type_id = 8 THEN 2 -- Remove BiggerBlade from tile
+                WHEN tile_type_id = 8 THEN 2 -- Remove Biggerblade from tile
                 WHEN tile_type_id = 10 THEN 11
                 WHEN tile_type_id = 12 THEN 13
                 ELSE tile_type_id
@@ -1083,7 +1084,7 @@ BEGIN
             SET tile_id = v_new_tile_id 
             WHERE player_id = p_player_id;
             
-            -- After move, check if player's health is below max and they have a heart in inventory
+            -- After move, check if player health is below max(3) and they have a heart in inventory
             IF v_health < 3 THEN
                 -- Check if player has a heart in inventory
                 SELECT quantity INTO v_inv_quantity
@@ -1106,7 +1107,7 @@ BEGIN
                     AND game_id = p_game_id 
                     AND tile_type_id = 7;
 
-                    -- If quantity reaches zero, delete inventory record
+                    -- If quantity reaches zero, delete inventory 
                     DELETE FROM inventory
                     WHERE player_id = p_player_id 
                     AND game_id = p_game_id 
@@ -1149,7 +1150,7 @@ END //
 DELIMITER ;
 
 
--- <========== Add Item To Inventory Procedure ==========>
+-- ========== Add item to inventory procedure ==========
 -- This procedure adds items to a player's inventory when they pick them up.
 -- It looks in the inventory table to see if they already have some of this item.
 --
@@ -1165,8 +1166,8 @@ DELIMITER //
 DROP PROCEDURE IF EXISTS AddItemToInventory //
 CREATE PROCEDURE AddItemToInventory(
     IN p_player_id INT,      -- Which player gets the item
-    IN p_game_id INT,        -- Which game they're in
-    IN p_tile_type_id INT    -- What item they're getting
+    IN p_game_id INT,        -- Which game they are in
+    IN p_tile_type_id INT    -- What item they are getting
 )
 BEGIN
     DECLARE v_quantity INT;
@@ -1198,23 +1199,23 @@ END //
 DELIMITER ;
 
 
--- <========== Update Game Score Procedure ==========>
+-- ========== Update game score procedure ==========
 -- This procedure adds points to a player's score in a game and shows their total.
 -- It uses the score table to keep track of all scoring.
 --
 -- What it does:
--- Adds a new score with current time
--- Adds up all their points in this game
--- Shows their new total
+-- Add a new score with current time
+-- Add up all their points in this game
+-- Show their new total
 --
 -- I added a transaction here because milestone 3 needs it. When players get points
--- at the same time, we need to make sure we don't miss any scores.
+-- at the same time, i need to make sure i don't miss any scores.
 
 DELIMITER //
 DROP PROCEDURE IF EXISTS UpdateGameScore //
 CREATE PROCEDURE UpdateGameScore(
    IN p_player_id INT,    -- Which player scored
-   IN p_game_id INT,      -- Which game they're in
+   IN p_game_id INT,      -- Which game they are in
    IN p_score INT         -- How many points to add
 )
 BEGIN
@@ -1236,18 +1237,18 @@ END //
 DELIMITER ;
 
 
--- <========== Get LeaderBoard Procedure ==========>
--- This procedure shows our top 10 players based on their scores. It looks in the
+-- ========== Get leaderBoard procedure ==========
+-- This procedure shows the top 10 players based on their scores. It looks in the
 -- game, player, and score tables to figure out who did the best.
 --
 -- What it does:
 -- Gets all completed games
--- Adds up each player's score
+-- Adds up each player score
 -- Works out how long they took to finish
 -- Shows the top 10 highest scores
 -- Orders them by score then by who finished fastest
 --
--- No transaction needed since we're just looking at scores, not changing them
+-- No transaction needed since i am just looking at scores, not changing them
 
 DELIMITER //
 DROP PROCEDURE IF EXISTS GetLeaderBoard //
@@ -1283,17 +1284,16 @@ BEGIN
 END //
 DELIMITER ;
 
--- <========== Get Player Stats Procedure ==========>
+-- ========== Get Player Stats Procedure ==========
 -- This procedure shows how well a player is doing overall. It uses the player,
--- game, and score tables to get all their stats.
+-- game, and score tables to get all their stats. I wanted to make a comprehensive leaderboard but time was short.
 --
 -- What it does:
 -- Counts how many games they've played
--- Sees how many they've finished
--- Finds their best score
--- Works out their average score
+-- Sees how many they have finished
+-- Finds best score
 --
--- No transaction needed since we're just checking stats, not changing anything
+-- No transaction needed since im just checking stats, not changing anything
 
 DELIMITER //
 DROP PROCEDURE IF EXISTS GetPlayerStats //
@@ -1320,16 +1320,16 @@ END //
 DELIMITER ;
 
 
--- <========== Get Active Games Procedure ==========>
+-- ========== Get active games procedure ==========
 -- This procedure shows which games are still being played. It looks in the
 -- game and player tables to find unfinished games.
 --
 -- What it does:
--- Gets all games that haven't ended yet
+-- Gets all games that have not ended yet
 -- Shows what type each game is
 -- Shows which player is in each game
 --
--- No transaction needed since we're just looking at current games, not changing them
+-- No transaction needed since i am just looking at current games, not changing them
 
 DELIMITER //
 DROP PROCEDURE IF EXISTS GetActiveGames //
@@ -1341,7 +1341,7 @@ BEGIN
        player.player_id
    FROM game
    LEFT JOIN player ON game.game_id = player.game_id
-   WHERE game.end_time IS NULL;  -- Only show games that aren't finished
+   WHERE game.end_time IS NULL;  -- Only show games that are not finished
 END //
 DELIMITER ;
 
